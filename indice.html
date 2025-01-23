@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bisuteria debra</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="logo">Logo</div>
+            <ul class="menu">
+                <li><a href="#">Compra</a></li>
+                <li><a href="#">Actualidad</a></li>
+                <li><a href="#">Moda</a></li>
+                <li><a href="#">Temperature</a></li>
+                <li><a href="#">Notifications</a></li>
+                <li><a href="#">Settings</a></li>
+            </ul>
+            <div class="profile">Profile</div>
+        </div>
+        <div class="main-content">
+            <div class="live-view">
+                <div class="live-header">
+                    <span class="live-status">Live</span>
+                    <span class="temperature">24°C</span>
+                </div>
+                <div class="live-image">
+                    <img src="living-room.jpg" alt="Living Room">
+                </div>
+                <div class="live-stats">
+                    <span>50%</span>
+                    <span>350W</span>
+                    <span>80%</span>
+                </div>
+            </div>
+            <div class="rooms">
+                <h2>Rooms</h2>
+                <ul>
+                    <li>Bedroom <span>3 device(s)</span></li>
+                    <li>Kitchen <span>2 device(s)</span></li>
+                    <li class="active">Living room <span>5 device(s)</span></li>
+                    <li>Bathroom <span>1 device(s)</span></li>
+                </ul>
+                <button>Add Room</button>
+            </div>
+            <div class="devices">
+                <div class="device bedroom">
+                    <h3>Bedroom</h3>
+                    <p>Robot vacuum cleaner</p>
+                    <div class="status">
+                        <span>90% Filter status</span>
+                        <span>10:00 AM Next cleaning</span>
+                    </div>
+                    <div class="stats">
+                        <span>75 m² Area cleaned</span>
+                        <span>30 min Cleaning time</span>
+                        <span>80% Battery charge</span>
+                    </div>
+                </div>
+                <div class="device living-room">
+                    <h3>Living room</h3>
+                    <p>Smart Lamp</p>
+                    <div class="control">
+                        <input type="range" min="0" max="100" value="70">
+                    </div>
+                </div>
+                <div class="device speakers">
+                    <h3>Speakers</h3>
+                    <p>Playing</p>
+                    <div class="player">
+                        <span>0:34</span>
+                        <span>2:27</span>
+                        <div class="controls">
+                            <button>Prev</button>
+                            <button>Play/Pause</button>
+                            <button>Next</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

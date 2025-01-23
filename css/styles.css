@@ -1,0 +1,151 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.sidebar {
+    width: 15%;
+    background-color: #f0f0f0;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+}
+
+.menu li {
+    margin: 20px 0;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+}
+
+.profile {
+    font-size: 18px;
+}
+
+.main-content {
+    width: 85%;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.live-view {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.live-header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.live-status {
+    background-color: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.temperature {
+    font-size: 24px;
+}
+
+.live-image img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.live-stats {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.rooms {
+    margin-top: 20px;
+}
+
+.rooms ul {
+    list-style: none;
+    padding: 0;
+}
+
+.rooms li {
+    margin: 10px 0;
+}
+
+.rooms li.active {
+    font-weight: bold;
+}
+
+.rooms button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.devices {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.device {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.device h3 {
+    margin-top: 0;
+}
+
+.device .control input[type="range"] {
+    width: 100%;
+}
+
+.device .player {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.device .player .controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
